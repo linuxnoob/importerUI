@@ -1,0 +1,47 @@
+<div class="cities-form">
+    <h2 class="text-center">Add Cities</h2>
+    <form [formGroup]="addForm"  (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="cityId">City ID:</label>
+        <input type="text" formControlName="cityId" placeholder="cityId" name="cityId" class="form-control"
+               id="cityId">
+      </div>
+      <div class="form-group">
+        <label for="cityName">City Name:</label>
+        <input type="text" formControlName="cityName" placeholder="cityName" name="cityName" class="form-control"
+               id="cityName">
+      </div>
+      <br/>
+      <div class="form-group">
+        <label for="stateProvinceId">State Province Id:</label>
+        <input type="text" formControlName="stateProvinceId" placeholder="stateProvinceId" name="stateProvinceId" class="form-control"
+               id="stateProvinceId">
+      </div>
+      <br/>
+      
+  
+      <div class="form-group">
+        <label for="latestRecordedPopulation">Last Record Population:</label>
+        <input type="text" formControlName="latestRecordedPopulation" placeholder="latestRecordedPopulation" name="latestRecordedPopulation" class="form-control"
+               id="latestRecordedPopulation">
+      </div>
+      <div class="form-group">
+        <label for="lastEditedBy">Last Edited By:</label>
+        <input type="text" formControlName="lastEditedBy" placeholder="lastEditedBy" name="lastEditedBy" class="form-control"
+               id="lastEditedBy">
+      </div>
+      <div class="form-group">
+        <label for="validFrom">Valid From :</label>
+        <input type="text" formControlName="validFrom" placeholder="validFrom" name="validFrom" class="form-control"
+               id="validFrom">
+      </div>
+      <div class="form-group">
+        <label for="validTo">Valid To:</label>
+        <input type="text" formControlName="validTo" placeholder="validTo" name="validTo" class="form-control"
+               id="validTo">
+      </div>
+  
+      <br/>
+      <button class="btn btn-success">Add</button>
+    </form>
+  </div>
