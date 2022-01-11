@@ -11,7 +11,6 @@ import { CitiesListComponent } from './components/cities/cities-list/cities-list
 import { AddCustomersComponent } from './components/customers/add-customers/add-customers.component';
 import { CustDetailsComponent } from './components/customers/cust-details/cust-details.component';
 import { CustomersListComponent } from './components/customers/customers-list/customers-list.component';
-import { AddCustomerComponent } from './components/customers/add-customer/add-customer.component';
 import { AddSupplierComponent } from './components/supplier/add-supplier/add-supplier.component';
 import { SupplierDetailsComponent } from './components/supplier/supplier-details/supplier-details.component';
 import { SupplierListComponent } from './components/supplier/supplier-list/supplier-list.component';
@@ -28,7 +27,7 @@ import { ListVehicleComponent } from './components/vehicle/list-vehicle/list-veh
     AddCustomersComponent,
     CustDetailsComponent,
     CustomersListComponent,
-    AddCustomerComponent,
+    AddCustomersComponent,
     AddSupplierComponent,
     SupplierDetailsComponent,
     SupplierListComponent,
